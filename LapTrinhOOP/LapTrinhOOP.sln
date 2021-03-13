@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCode", "TestCode\TestCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KieuBoolvaEnum", "KieuBoolvaEnum\KieuBoolvaEnum.csproj", "{0705724A-1B00-4FF8-8CBD-29F6DF16B4BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mang1Chieu", "Mang1Chieu\Mang1Chieu.csproj", "{9BF433FB-AD06-494A-81D4-31654F0C7497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mang1Chieuv2", "Mang1Chieuv2\Mang1Chieuv2.csproj", "{B095AF16-FE27-4529-BC01-FA170BA9D96D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{0705724A-1B00-4FF8-8CBD-29F6DF16B4BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0705724A-1B00-4FF8-8CBD-29F6DF16B4BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0705724A-1B00-4FF8-8CBD-29F6DF16B4BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF433FB-AD06-494A-81D4-31654F0C7497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF433FB-AD06-494A-81D4-31654F0C7497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF433FB-AD06-494A-81D4-31654F0C7497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF433FB-AD06-494A-81D4-31654F0C7497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B095AF16-FE27-4529-BC01-FA170BA9D96D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B095AF16-FE27-4529-BC01-FA170BA9D96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B095AF16-FE27-4529-BC01-FA170BA9D96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B095AF16-FE27-4529-BC01-FA170BA9D96D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
