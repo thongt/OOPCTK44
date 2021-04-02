@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="QuanLyDanhBa.DanhBa">
+    <Position X="0.5" Y="0.5" Width="5.5" />
+    <NestedTypes>
+      <Enum Name="QuanLyDanhBa.DanhBa.KieuSapXep" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DanhBa.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gCCgAAAAAAACAAAgAEBAAAAAAAAIAAEgAAAAEAACAAE=</HashCode>
+      <FileName>DanhBa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyDanhBa.ThueBao">
+    <Position X="6" Y="0.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAEAAAAAAIEIAAAEAAAAAAAAAAAAAAgAgAAAAA=</HashCode>
+      <FileName>ThueBao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="QuanLyDanhBa.GioiTinh">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ThueBao.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
