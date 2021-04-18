@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace QuanLyHinhHoc
 {
-    class HinhHoc
+    //class HinhHoc
+    //{
+    //    public virtual float TinhDT()
+    //    {
+    //        return 0;
+    //    }
+    //}
+
+    // abstract class HinhHoc
+    //{
+    //    public abstract float TinhDT();
+    //    public float TinhCV()
+    //    {
+    //        return 0;
+    //    }
+    //}
+    interface IHinhHoc
     {
+        float TinhDT();
     }
 }

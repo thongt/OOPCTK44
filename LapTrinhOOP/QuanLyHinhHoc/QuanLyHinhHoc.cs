@@ -8,11 +8,8 @@ namespace QuanLyHinhHoc
 {
     class DanhSachHinhHoc
     {
-        List<HinhHoc> collection = new List<HinhHoc>();
-
-        public event EventHandler Event;
-
-        public void Them(HinhHoc hh)
+        List<IHinhHoc> collection = new List<IHinhHoc>();
+        public void Them(IHinhHoc hh)
         {
             collection.Add(hh);
         }
@@ -54,31 +51,39 @@ namespace QuanLyHinhHoc
 
         float TimDienTichLonNhat()
         {
-            float max = -1;
-            foreach (var item in collection)
-            {
-                float dt = 0;
-                if (item is HinhVuong)
-                     dt = ((HinhVuong)item).TinhDT();
-                if (item is HinhTron)
-                     dt = ((HinhTron)item).TinhDT();
-                if (dt > max)
-                    max = dt;
-            }
-
-            return max;
+            //float max = -1;
+            //foreach (var item in collection)
+            //{
+            //    //float dt = 0;
+            //    //if (item is HinhVuong)
+            //    //     dt = ((HinhVuong)item).TinhDT();
+            //    //if (item is HinhTron)
+            //    //     dt = ((HinhTron)item).TinhDT();
+            //    //if (dt > max)
+            //    //    max = dt;
+            //    if (item.TinhDT() > max)
+            //        max = item.TinhDT();
+            //}
+            return collection.Max(x => x.TinhDT());
+          //  return max;
         }
         public DanhSachHinhHoc TimHinhCoDTLonNhat()
         {
+            //DanhSachHinhHoc kq = new DanhSachHinhHoc();
+            //float max = TimDienTichLonNhat();
+            //foreach (var item in collection)
+            //{
+            //    //if (item is HinhVuong && ((HinhVuong)item).TinhDT() == max)
+            //    //    kq.Them(item);
+            //    //if (item is HinhTron && ((HinhTron)item).TinhDT() == max)
+            //    //    kq.Them(item);
+            //    if (item.TinhDT() == max)
+            //        kq.Them(item);
+            //}
+            //return kq;
             DanhSachHinhHoc kq = new DanhSachHinhHoc();
             float max = TimDienTichLonNhat();
-            foreach (var item in collection)
-            {
-                if (item is HinhVuong && ((HinhVuong)item).TinhDT() == max)
-                    kq.Them(item);
-                if (item is HinhTron && ((HinhTron)item).TinhDT() == max)
-                    kq.Them(item);
-            }
+            kq.collection = collection.FindAll(x => x.TinhDT() == max);
             return kq;
         }
     }

@@ -33,7 +33,7 @@ namespace Mang1Chieu
             {
                 Console.Write("\t " + a[i]);
             }
-            int tong = 0;
+           // int tong = 0;
             for (int i = 0; i < n; i++)
             {
                 tong = tong + a[i];

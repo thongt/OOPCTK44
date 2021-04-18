@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="ZBai12_QuanLyMayTinh.MayTinh">
+    <Position X="4.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAkAEAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>MayTinh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZBai12_QuanLyMayTinh.DanhSachMayTinh">
+    <Position X="1.25" Y="2" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAkAEgAAAAAAAAAAAAAAAQAAAAAAAE=</HashCode>
+      <FileName>DanhSachMayTinh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZBai12_QuanLyMayTinh.CPU">
+    <Position X="8.75" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAEAAAABEAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>CPU.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ZBai12_QuanLyMayTinh.Ram">
+    <Position X="5.75" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ZBai12_QuanLyMayTinh.IThietBi" Collapsed="true">
+    <Position X="8.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IThietBi.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

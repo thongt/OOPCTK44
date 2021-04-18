@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyHinhHoc
 {
-    class HinhTron:HinhHoc
+    class HinhTron:IHinhHoc
     {
         public float banKinh;
         public HinhTron()
@@ -16,7 +16,7 @@ namespace QuanLyHinhHoc
         {
             banKinh = r;
         }
-        public float TinhDT()
+        public  float TinhDT()
         {
             return (float)Math.Round(Math.PI * banKinh * banKinh,0);
         }
@@ -24,6 +24,5 @@ namespace QuanLyHinhHoc
         {
             return "Hinh tron ban kinh " + banKinh + " dien tich " + TinhDT();
         }
-
     }
-}
+} 
